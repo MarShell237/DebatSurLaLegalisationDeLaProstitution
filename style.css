@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,#two,#three
+{
+    margin: 0;
+    padding: 0px;
+    color:rgb(0, 0, 0);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Wiki-prostitute.png/330px-Wiki-prostitute.png);
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    
+    background-attachment: fixed;
+    background-size: 80%;
+    background-position: center center;
+}
+
+h1,h2,h3{
+    font-size: 3.5em;
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-style:italic;
+    text-shadow: 6px 6px 15px rgb(29, 49, 63);
+    margin: 10px;
+}
+
+h1
+{
+    color:rgba(0, 0, 0,0.8);
+    background: linear-gradient(90deg, #8360c3, #05f0a5);
+    font-size: 3.5em;
+    margin: 25px;
+    border-radius: 20px;
+    text-shadow: 8px 8px 40px rgb(18, 20, 25);
+    box-shadow: 20px 20px 15px rgb(0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover
+{
+    transition: 0.3s;
+    box-shadow: 10px 10px 15px rgb(24, 23, 23);
+}
+
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+
+strong
+{
+    color:rgba(0, 0, 0,0.7);
+}
+
+.sommaire
+{
+   background-color: rgb(54, 234, 234,0.7); 
+   margin: 10px;
+   padding: 30px;
+   border-spacing: 200px;
+}
+
+.sommaire a h3{
+    font-size: 2em;
+    font-style:italic;
+    font-weight: 100;
+    text-align: justify;
+    box-shadow: 2px 2px 4px rgb(33, 42, 125); 
+    color:rgb(255, 255, 255);
+    margin: 10px;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sommaire a h3:hover
+{
+    transition: 0.5s;
+    text-decoration:underline;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+#SUBJECT{
+    font-size: 3.5em;
+    margin: 35px;
+}
+
+#background_opacity 
+{ 
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.7); /* L'opacite se regle ici */
+    padding: 20px;
+    margin: 0px;
+}
