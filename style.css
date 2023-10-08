@@ -64,6 +64,12 @@ strong
     color:rgba(0, 0, 0,0.7);
 }
 
+img{
+    width: 200px;
+    height: auto;
+    float: left;
+}
+
 .sommaire
 {
    background-color: rgb(54, 234, 234,0.7); 
